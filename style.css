@@ -1,0 +1,321 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.body {
+	font-family: helvetica;
+
+}
+
+
+
+.logo {
+	width: 30%;
+	max-width: 300px;
+	position: sticky;
+	top: 5%;
+ 	text-align: center;
+
+ }
+
+
+
+
+
+/* NAVIGATION */
+
+.navigation {
+	color: #444444;
+	font-size: 32px;
+
+	display: block;
+  	line-height: 60px;
+
+
+	position: sticky;
+  	top: 200px;
+ 	text-align: center;
+	/* background-color: lightblue;		/* COLOR */
+	padding: 5px;
+	
+}
+
+.navigation a {
+	color: #444444;
+	font-size: 32px;
+	text-decoration: none;
+	/* background-color: red; 			/* COLOR */
+}
+
+/* NAVIGATION END */
+
+
+
+
+
+
+.whitecontainer {
+	text-align: center;
+	height: 320px;
+	width: 100%
+	background-color: red; 				/* COLOR */
+}
+
+
+
+
+
+
+
+
+
+/* HOST CONTAINER */
+
+.container {
+	display: block;
+	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%);
+
+
+  	width: 750px;
+  	margin-top: 300px;
+  	max-width: 800px;
+	
+	background-color: lightgreen;  	 	/* COLOR */
+}
+
+
+
+.block {
+
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 20px;
+	
+	background-color: red;  			/* COLOR */
+}
+
+
+
+
+
+
+/* HOST INFORMATION + PIC CONTAINER */
+
+.profile-container{
+	font-size: 35px;
+	height: 100px;
+	/* background-color: lightblue;   	/* COLOR */
+}
+
+
+
+
+.text-container-host {
+	text-align: right;
+	float: right;
+	/* background-color: pink;			/* COLOR */
+	
+}
+
+
+.image-container-host {
+	text-align: left;
+	float: left;
+	width: 100px;
+	/* background-color: green;   		/* COLOR */
+
+}
+
+.host-name {
+	color: #131517;
+	font-weight: 700;
+}
+
+.city-country {
+	color: #444444;
+	font-weight: 500;
+}
+
+
+
+
+.profile-pic {
+	border-radius: 50%;
+	margin: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+/* HOST CONTAINER END */
+
+
+
+
+
+
+
+/* FORM CONTAINER */
+
+.input { 
+  	cursor: hand;
+  	cursor: pointer; 
+  	border: 10px;
+	border-color:  #444444;
+	margin-top: 30px;
+	width: 100%;
+	height: 15%;
+	font-size: 30px;
+	background-color: #FAFAFA;
+
+}
+
+
+
+form {
+	display: inline-block;
+	width: 100%
+}
+
+
+
+
+.userinput {
+	margin-top: 30px;
+	width: 100%;
+	height: 500px;
+	font-size: 32px;
+	
+
+}
+
+
+
+.userinput-text {
+	color: #444444;
+	margin-top: 50px;
+	display: inline-block;
+	padding-bottom: 0px;
+	font-weight: 400;
+	/* background-color: lightblue; 	/* COLOR */
+}
+
+
+
+.userinput-form {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	
+	
+	/* background-color: purple;		/* COLOR */
+}
+
+
+
+.submit {
+
+  	text-decoration: underline; 
+  	border: 0;
+  	font-weight: 500;
+	margin-top: 30px;
+	width: 100%;
+	height: 15%;
+	font-size: 30px;
+	background-color: white;
+	border-radius: 
+
+}
+
+
+
+
+
+.submit:active {
+ 
+	background-color: none;
+
+}
+
+
+/* FORM CONTAINER END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+.tripper-about {
+	position: absolute;
+	color: #131517;
+	font-family: helvetica;
+	font-size: 32px;
+  	left: 50%;
+  	top: 300px;
+  	transform: translate(-50%);
+  	width: 800px;
+}
+
+
+.tripper-about h1 {
+	color: #131517;
+	font-family: helvetica;
+	font-size: 32px;
+}
+
+.tripper-about p {
+	color: #131517;
+	font-family: helvetica;
+	font-size: 32px;
+  
+}
+
+
+
+/* PRIVACY POLICY PAGE */
+
+.tripper-privacy {
+	position: absolute;
+	color: #131517;
+	font-family: helvetica;
+	font-size: 32px;
+  	left: 50%;
+  	top: 300px;
+  	transform: translate(-50%);	
+  	width: 800px;
+
+}
+
+.tripper-privacy h1 {
+	color: #131517;
+	font-family: helvetica;
+	font-size: 32px;
+}
+
+.tripper-privacy p {
+	color: #131517;
+	font-family: helvetica;
+	font-size: 32px;
+}
+
+
+
+/*
+	text-align: center; 
+*/
